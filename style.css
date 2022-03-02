@@ -59,25 +59,27 @@ header h1 {
 
 header button span.menuicon {
   font-size: 24px;
-  margin: 10px;
+  margin: 5px;
 }
 
 header button {
-  background-color: #1a24fb
+  background-color: #1a24fb;
+  height: 38px;
 }
 
 main {
   margin: 0 auto;
   max-width: 1280px;
-  margin: 120px auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 100px 20px;
+  gap: 0px 20px;
 }
 
 main .container {
+  margin-top: 100px;
   position: relative;
+  color: #1a24fb;
   max-width: 360px;
 }
 
@@ -86,13 +88,6 @@ main .container .card  {
   height: 100%;
   padding: 40px;
   border: 2px solid #1a24fb;
-}
-
-main .container .card h2 {
-  min-height: 110px;
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: .5em;
 }
 
 main .container .card .index {
@@ -108,7 +103,14 @@ main .container .card .index {
   font-weight: 700;
 }
 
-main .container .card h5 {
+main .container .card h2 {
+  min-height: 110px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+main .container .card .name {
   font-size: 12px;
   font-weight: 400;
   margin-bottom: 1em;
@@ -121,24 +123,23 @@ main .container .card .text {
   font-weight: 400;
 }
 
-main .container .card button {
+main .container button {
   position: absolute;
   display: flex;
-  width: 100%;
+  width: 360px;
   height: 18px;
   align-items: center;
 }
 
-main .container .card button .button-text {
+main .container button .button-text {
   font-size: 14px;
 }
 
-main .container .card button .arrow {
+main .container button .arrow {
   font-size: 18px;
-
 }
 
-main .container .card button:hover {
+main .container button:hover {
   background-color: #1a24fb;
   color: #f8f7f3;
 }
